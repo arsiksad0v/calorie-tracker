@@ -1,7 +1,7 @@
 export interface Meal {
-    id: string;
-    time: string;
-    description: string;
-    calories: number;
-  }
-  
+  id: number;
+  time: 'Breakfast' | 'Snack' | 'Lunch' | 'Dinner';
+  description: string;
+  calories: number;
+}
+
